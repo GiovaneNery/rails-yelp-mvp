@@ -10,7 +10,11 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body style="background-color: #900C3F;">
+    <div class="d-flex flex-wrap justify-content-center align-items-center vh-100">
+      <div style="background-color: #0C356A;">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

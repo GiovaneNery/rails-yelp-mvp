@@ -1,0 +1,10 @@
+<div class="card  m-3 p-2 bg-light" style="width: 25rem;">
+  <h3>Add a New Restaurant</h3>
+  <%= simple_form_for (@restaurant) do |f| %>
+    <%= f.input :name, label: 'Name' %>
+    <%= f.input :address, label: 'Address' %>
+    <%= f.input :category, label: 'Category' %>
+    <%= f.input :phone_number, label: 'Phone Number' %>
+    <%= f.button :submit %>
+  <% end %>
+</div>

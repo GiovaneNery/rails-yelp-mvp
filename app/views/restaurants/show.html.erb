@@ -1,0 +1,8 @@
+<div class="card  m-3 p-2 bg-light" style="width: 25rem;">
+  <h2><%= @restaurant.name %></h2>
+  <h4>Address: <%= @restaurant.address %></h4>
+  <h4>Category: <%= @restaurant.category.capitalize %></h4>
+  <div class="d-flex">
+    <h5>Phone number: </h5><p class="mx-2"><%= @restaurant.phone_number %></p>
+  </div>
+</div>
